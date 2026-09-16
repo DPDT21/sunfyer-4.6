@@ -1,0 +1,10 @@
+{
+  "name": "Sunfyer AI Assistant",
+  "description": "Futuristic AI assistant featuring live Google Search-grounded Deep Research, customizable holographic HUD, 6 solar color themes, real-time echo-cancellation shield, and background auto-updating.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

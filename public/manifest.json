@@ -1,0 +1,17 @@
+{
+  "name": "Sunfyer AI Assistant",
+  "short_name": "Sunfyer",
+  "description": "Minimalist solar-themed voice AI assistant with glowing yellow accents.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#070709",
+  "theme_color": "#FACC15",
+  "icons": [
+    {
+      "src": "/sunfyer-icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

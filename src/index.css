@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: #070709;
+    color: #f3f4f6;
+  }
+  
+  code, pre, .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Custom glowing solar effects */
+.glow-yellow-sm {
+  box-shadow: 0 0 12px rgba(250, 204, 21, 0.25);
+}
+
+.glow-yellow-md {
+  box-shadow: 0 0 24px rgba(250, 204, 21, 0.45), 0 0 45px rgba(234, 179, 8, 0.2);
+}
+
+.glow-yellow-lg {
+  box-shadow: 0 0 40px rgba(250, 204, 21, 0.55), 0 0 80px rgba(234, 179, 8, 0.3);
+}
+
+.glow-yellow-text {
+  text-shadow: 0 0 14px rgba(250, 204, 21, 0.6), 0 0 28px rgba(234, 179, 8, 0.35);
+}
+
+.glow-yellow-border {
+  border-color: rgba(250, 204, 21, 0.45);
+  box-shadow: 0 0 15px rgba(250, 204, 21, 0.2);
+}
+
+/* Solar ambient backdrops */
+.bg-radial-solar {
+  background: radial-gradient(circle at 50% 50%, rgba(250, 204, 21, 0.12) 0%, rgba(234, 179, 8, 0.04) 45%, transparent 70%);
+}
+
+.bg-radial-flare {
+  background: radial-gradient(ellipse at 50% 0%, rgba(250, 204, 21, 0.16) 0%, transparent 65%);
+}
+
+/* Subtle sleek scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #09090b;
+}
+::-webkit-scrollbar-thumb {
+  background: #27272a;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #eab308;
+}
